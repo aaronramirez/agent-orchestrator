@@ -379,7 +379,7 @@ function SessionCardView({
             onClick={(e) => e.stopPropagation()}
             className="done-meta-chip font-[var(--font-mono)] font-semibold text-[var(--color-accent)] no-underline hover:underline"
           >
-            View current context
+            View current context →
           </a>
         </div>
 
