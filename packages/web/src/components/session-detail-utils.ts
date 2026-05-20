@@ -2,7 +2,7 @@ import { isPRRateLimited, isPRUnenriched, type DashboardPR } from "@/lib/types";
 
 export const sessionActivityMeta: Record<string, { label: string; color: string }> = {
   active: { label: "Active", color: "var(--color-status-working)" },
-  ready: { label: "Ready", color: "var(--color-status-ready)" },
+  ready: { label: "Ready!!!", color: "var(--color-status-ready)" },
   idle: { label: "Idle", color: "var(--color-status-idle)" },
   waiting_input: { label: "Waiting for input", color: "var(--color-status-attention)" },
   blocked: { label: "Blocked", color: "var(--color-status-error)" },
