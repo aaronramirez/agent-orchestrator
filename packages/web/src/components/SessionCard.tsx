@@ -298,7 +298,7 @@ function SessionCardView({
             {statusInfo.icon}
             {statusInfo.label}
           </span>
-          <span className="font-[var(--font-mono)] text-[10px] tracking-wide text-[var(--color-text-muted)]">
+          <span className="font-[var(--font-mono)] text-[10px] tracking-wide text-[var(--color-text-muted)]" title={session.id}>
             {session.id}
           </span>
           <div className="flex-1" />
@@ -529,7 +529,7 @@ function SessionCardView({
             cardDotTone === "exited" && "card__adot--exited",
           )}
         />
-        <span className="card__id">{session.id}</span>
+        <span className="card__id" title={session.id}>{session.id}</span>
         <div className="flex-1" />
         {isRestorable && (
           <button
